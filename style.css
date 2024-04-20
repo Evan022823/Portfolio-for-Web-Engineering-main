@@ -10,9 +10,6 @@ html {
   overflow-x: hidden;
 }
 
-nav img {
-  
-}
 
 body {
   padding: 0;
@@ -39,6 +36,12 @@ header nav {
   position: fixed;
   width: 90%;
   z-index: 99;
+  width: 1024px;
+  height: auto;
+  color: #848080;
+}
+nav {
+  
 }
 
 header nav img {
@@ -71,38 +74,7 @@ header nav ul li .active {
   color: #fbfbfb;
 }
 
-header nav .search {
-  height: 48px;
-  width: 200px;
-  background-color: #3d3e42;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 4px;
-  border-radius: 10px;
-}
 
-header nav .search input {
-  border: none;
-  background-color: transparent;
-  width: 80%;
-  color: #fbfbfb;
-  outline: none;
-}
-
-header nav .search input:focus {
-  border: none;
-  outline: none;
-}
-
-header nav .search input::placeholder {
-  color: #98999a;
-  font-size: 16px;
-}
-
-header nav .search i {
-  color: #98999a;
-}
 
 .landing {
   display: flex;
